@@ -1,0 +1,27 @@
+{
+  "name": "pastee-simpler",
+  "version": "1.0.0",
+  "description": "Paste.ee but simpler and not complex like the main package!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajdev95/paste.ee-simpler"
+  },
+  "author": "Andrija (AJ)",
+  "license": "ISC",
+  "keywords": [
+    "paste",
+    "pastebin",
+    "pastee",
+    "pastee-simpler"
+  ],
+  "bugs": {
+    "url": "https://github.com/ajdev95/paste.ee-simpler/issues"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

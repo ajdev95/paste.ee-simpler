@@ -1,18 +1,3 @@
-# Pastee Simpler -- A simpler SIMPLER Paste.ee API module
-
-Requirements:
-* Node.js
-* npm (Node.js package manager)
-
-```bash
-npm install pastee-simpler
-```
-
-## Example code:
-
-pastee-simpler is made to be easier than the main module which is [npmjs.com/package/pastee](https://www.npmjs.com/package/pastee)
-
-```javascript
 const { Pastee, PasteeStyle, PasteeExpiry } = require('pastee-simpler');
 
 const paste = new Pastee('Your API Key'); // Get it by going to https://paste.ee/account/api
@@ -50,18 +35,3 @@ paste.submit({
 }).catch(error => {
   console.error("Failed to create paste:", error);
 });
-```
-
-# How do i get my paste.ee API Key?
-
-- Firstly login to your account
-- Verify your email first if you haven't
-- Go to https://paste.ee/account/api/developer
-- Type your application name in the "Application Name" inbox
-- Click "Create"
-- Underneath the "Developer Key" click to copy the developer API key and paste it in the code above ^
-
-## Soon:
-
-* Supporting more pastee style languages
-* Fixing pastee expiry (currently doesn't work, default is 4 week.)
